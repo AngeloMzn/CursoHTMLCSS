@@ -17,6 +17,22 @@
         <img src="imagens/foto-g.png" alt="Imagem flexível">
     </picture>
 
+    <h1>Reproduzindo audios</h1>
+    <p>
+        Vamos aprender a reproduzir audios em HTML5
+    </p>
+    
+    <audio src="midia/Emotional Mess - Amy Lynn & the Honey Men.mp3" controls autoplay></audio> <!--Cria um reprodutor de musica-->
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/npeg"> <!--Cria reprodutor de audio -->
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav"> <!--Evitar usar WAV-->
+        <p>
+            Infelizmente seu navegador não consegue reproduzir audio
+            <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo mp3</a>
+        </p>
+    </audio>
 
 
 
